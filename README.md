@@ -18,3 +18,4 @@ This program proposed to help teachers found final grade of student (IPK or IPS)
 <br>
 <h2>note:</h2><br>
 <b>dont forget to instal minGW g++ or anything to help code run</b>
+<h3>file location=/ips/main.cpp/</h3>
