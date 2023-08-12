@@ -11,13 +11,13 @@ class Grade{
     float sum=0;
     float ip;
 
-    void getmatkul(){
+    void getmatkul(){ //get all studie in one of season 
         cout<<"Jumlah keseluruhan matkul dalam semester=>";
         cin>>matkul;
         cout<<"get matkul = "<<" "<<matkul<<endl;
     }
 
-    void getSum(){
+    void getSum(){ //input grade and SKS one of studie cum=Sigma(nilai * sks)
         int no=1;
         float getAll;
         for(int i=0;i<matkul;i++){
@@ -37,7 +37,7 @@ class Grade{
          cout<<"================================================ \n";
     }
 
-    void getGrade(){
+    void getGrade(){ //get result k=cum/all sks of season
         cout<<"masukan total sks dalam satu semester=>";
         cin>>totalSks;
 
